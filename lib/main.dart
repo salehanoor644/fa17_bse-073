@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
         styleTextUnderTheLoader: new TextStyle(),
         photoSize: 100.0,
         onClick: ()=>print("Flutter Egypt"),
-        loaderColor: Colors.red
+        loaderColor: Colors.blue
     );
   }
 }
@@ -38,7 +38,7 @@ class AfterSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-          title: new Text("Fa17-bse-073"),
+          title: new Text("FA17-BSE-073"),
           automaticallyImplyLeading: false
       ),
       body: new Center(
